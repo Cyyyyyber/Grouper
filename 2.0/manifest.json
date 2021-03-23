@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Grouper",
+    "version": "2.0",
+    "description": "A grouper which can group your tabs automatically when you use search engine.",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "background": {
+        "service_worker": "Grouper.js"
+    },
+    "permissions": ["tabGroups","tabs"],
+    "host_permissions": ["http://*/*", "https://*/*"]
+}
